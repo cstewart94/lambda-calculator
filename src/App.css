@@ -19,4 +19,90 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+    margin: 0 auto;
+  }
+
+  .logo{
+    margin-top:5%;
+    margin-left:5%;
+  }
+
+  .buttonContainer{
+    display:flex;
+    margin: 5% 5% 0 5%;
+    justify-content: space-evenly;
+  }
+
+  .snContainer{
+    display:flex;
+    flex-direction:column;
+  }
+
+  .specialsContainer{
+    display:flex;
+    width:100%;
+    justify-content:space-around;
+  }
+
+  .specialContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .operatorContainer{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .operatorButton{
+    color:white;
+    background: #1e5f81;
+    border: none;
+    font-size: 2rem;
+    box-shadow: 0px 3.5px black;
+    margin-top:20px;
+    width: 90px;
+    height: 90px;
+    border-radius:50%;
+    cursor:pointer;
+  }
+
+  .numberContainer{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+  }
+
+  .numberButton{
+    color:white;
+    background:#143166;
+    border: none;
+    font-size: 2rem;
+    box-shadow: 0px 3.5px black;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 90px;
+    height: 90px;
+    border-radius:50%;
+    cursor: pointer;
+  }
+
+  .numberButton:nth-child(10){
+    width:55%;
+    border-radius: 60px;
+  }
+
+  .specialButton{
+    color:white;
+    background: #1b488b;
+    border: none;
+    font-size: 2rem;
+    box-shadow: 0px 3.5px black;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 90px;
+    height: 90px;
+    border-radius:50%;
+    cursor:pointer;
   }
